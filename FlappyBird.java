@@ -210,13 +210,13 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 	public void repaint(Graphics g)
 	{
 		
-		g.setColor(Color.cyan);
+		g.setColor(Color.cyan.darker());
 		g.fillRect(0, 0, WIDTH, HEIGHT);
 		
-		g.setColor(Color.orange);
+		g.setColor(Color.orange.darker());
 		g.fillRect(0, HEIGHT - 120, WIDTH, 120);
 
-		g.setColor(Color.green);
+		g.setColor(Color.green.darker());
 		g.fillRect(0, HEIGHT - 120, WIDTH, 20);
 
 		g.setColor(Color.red);
