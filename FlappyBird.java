@@ -212,14 +212,7 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 		
 		g.setColor(Color.cyan);
 		g.fillRect(0, 0, WIDTH, HEIGHT);
-		try {
-			BufferedImage image = ImageIO.read(new File("C:\\Users\\Bob\\Desktop\\Grinds\\Leaving Cert\\Accounting\\17-01-17\\pp.jpg"));
-			g.drawImage(image,0,0,null);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
+		
 		g.setColor(Color.orange);
 		g.fillRect(0, HEIGHT - 120, WIDTH, 120);
 
